@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525" Background="#FF010103">
-    <Grid x:Name="blocksGrid" HorizontalAlignment="Left" Height="295" VerticalAlignment="Top" Width="349" Margin="11,10,0,0" OpacityMask="Black" Background="#FFFFBE00">
+        Title="MainWindow" Height="355.333" Width="593.934" Background="#FF010103">
+    <Grid x:Name="blocksGrid" HorizontalAlignment="Left" Height="304" VerticalAlignment="Top" Width="567" Margin="10,11,0,0" OpacityMask="Black" Background="#FFFFBE00" RenderTransformOrigin="-0.094,0.476">
         <Grid.RowDefinitions>
             <RowDefinition Height="55"/>
-            <RowDefinition Height="83"/>
-            <RowDefinition Height="80"/>
-            <RowDefinition Height="100"/>
+            <RowDefinition Height="82"/>
+            <RowDefinition Height="85"/>
+            <RowDefinition Height="96"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="63"/>
@@ -21,23 +21,23 @@
             <ColumnDefinition Width="167"/>
         </Grid.ColumnDefinitions>
 
-        <Label x:Name="label_Copy2" Content="16" HorizontalAlignment="Left" Margin="5,10,0,0" VerticalAlignment="Top" Grid.Row="1" Height="61" Width="53" FontSize="32" FontWeight="Bold"/>
-        <Label x:Name="label_Copy3" Content="12" HorizontalAlignment="Left" Margin="5,16,0,0" VerticalAlignment="Top" Grid.Row="2" Height="61" Width="53" FontSize="32" FontWeight="Bold"/>
-        <Label x:Name="label_Copy4" Content="17" HorizontalAlignment="Left" Margin="5,7,0,0" VerticalAlignment="Top" Grid.Row="3" Height="61" Width="53" FontSize="32" FontWeight="Bold"/>
-        <Label x:Name="label_Copy" Content="16" HorizontalAlignment="Left" Margin="23,-1,0,0" VerticalAlignment="Top" Height="49" Width="53" FontSize="32" Grid.Column="1" FontWeight="Bold"/>
-        <Label x:Name="label_Copy1" Content="9" HorizontalAlignment="Left" Margin="29,-1,0,0" VerticalAlignment="Top" Height="49" Width="38" FontSize="32" Grid.Column="2" FontWeight="Bold"/>
-        <Label x:Name="label_Copy5" Content="21" HorizontalAlignment="Left" Margin="22,-1,0,0" VerticalAlignment="Top" Height="49" Width="53" FontSize="32" Grid.Column="3" FontWeight="Bold"/>
-        <TextBox x:Name="textBox" Grid.Column="1" HorizontalAlignment="Left" Margin="25,30,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="46" Height="18"/>
-        <TextBox x:Name="textBox_Copy" Grid.Column="2" HorizontalAlignment="Left" Margin="25,30,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="46" Height="18"/>
-        <TextBox x:Name="textBox_Copy1" Grid.Column="3" HorizontalAlignment="Left" Margin="25,30,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="46" Height="18"/>
-        <TextBox x:Name="textBox_Copy2" Grid.Column="1" HorizontalAlignment="Left" Margin="25,30,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="46" Height="18"/>
-        <TextBox x:Name="textBox_Copy3" Grid.Column="2" HorizontalAlignment="Left" Margin="25,30,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="46" Height="18"/>
-        <TextBox x:Name="textBox_Copy4" Grid.Column="3" HorizontalAlignment="Left" Margin="25,30,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="46" Height="18"/>
-        <TextBox x:Name="textBox_Copy5" Grid.Column="3" HorizontalAlignment="Left" Margin="25,30,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" Width="46" Height="18"/>
-        <TextBox x:Name="textBox_Copy6" Grid.Column="2" HorizontalAlignment="Left" Margin="25,30,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" Width="46" Height="18"/>
-        <TextBox x:Name="textBox_Copy7" Grid.Column="1" HorizontalAlignment="Left" Margin="25,30,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" Width="46" Height="18"/>
-        <Grid x:Name="dataGrid" Grid.Column="4" HorizontalAlignment="Left" Height="293" Margin="10,3,0,0" Grid.RowSpan="4" VerticalAlignment="Top" Width="134" Background="#FF670512">
-            <Button x:Name="button" Content="Submit Answers" HorizontalAlignment="Left" Height="36" Margin="10,247,0,0" VerticalAlignment="Top" Width="114" Click="button_Click_1" FontSize="13.333" FontWeight="Bold"/>
-        </Grid>
+        <Label x:Name="label_Copy2" Content="16" HorizontalAlignment="Left" Margin="10,13,0,0" VerticalAlignment="Top" Grid.Row="1" Height="61" Width="53" FontSize="32" FontWeight="Bold"/>
+        <Label x:Name="label_Copy3" Content="12" HorizontalAlignment="Left" Margin="10,14,0,0" VerticalAlignment="Top" Grid.Row="2" Height="61" Width="53" FontSize="32" FontWeight="Bold"/>
+        <Label x:Name="label_Copy4" Content="17" HorizontalAlignment="Left" Margin="10,14,0,0" VerticalAlignment="Top" Grid.Row="3" Height="61" Width="53" FontSize="32" FontWeight="Bold"/>
+        <Label x:Name="label_Copy" Content="16" HorizontalAlignment="Left" Margin="23,5,0,0" VerticalAlignment="Top" Height="49" Width="53" FontSize="32" Grid.Column="1" FontWeight="Bold"/>
+        <Label x:Name="label_Copy1" Content="9" HorizontalAlignment="Left" Margin="29,5,0,0" VerticalAlignment="Top" Height="49" Width="38" FontSize="32" Grid.Column="2" FontWeight="Bold"/>
+        <Label x:Name="label_Copy5" Content="21" HorizontalAlignment="Left" Margin="22,5,0,0" VerticalAlignment="Top" Height="49" Width="53" FontSize="32" Grid.Column="3" FontWeight="Bold"/>
+        <TextBox x:Name="textBox" Grid.Column="1" HorizontalAlignment="Left" Margin="17,22,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="136" Margin="10,10,-29,0" TextWrapping="Wrap" Text="Welcome to Kakuro Game for Beginners" VerticalAlignment="Top" Width="187" TextChanged="textBox1_TextChanged_1" Grid.Column="4" FontWeight="Bold" FontSize="26.667" Grid.RowSpan="3" Background="Black" TextAlignment="Center" Foreground="#FFFFBE00" BorderBrush="#FFFF6200" FontFamily="Showcard Gothic"/>
+        <Button x:Name="button" Content="Submit Answers" Grid.Column="4" HorizontalAlignment="Left" Margin="15,10,-21,0" Grid.Row="3" VerticalAlignment="Top" Width="174" Height="33" Foreground="Black" Background="#FFFFBE00" FontWeight="Bold" FontSize="18.667" FontFamily="Kristen ITC" BorderBrush="Black"/>
+        <Button x:Name="button1" Content="Exit Game" Grid.Column="4" HorizontalAlignment="Left" Margin="50,48,0,0" Grid.Row="3" VerticalAlignment="Top" Width="104" Height="25" FontSize="18.667" FontWeight="Bold" Background="#FFFFBE00" FontFamily="Kristen ITC" BorderBrush="Black"/>
+        <TextBox x:Name="textBox_Copy" Grid.Column="2" HorizontalAlignment="Left" Margin="17,22,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center"/>
+        <TextBox x:Name="textBox_Copy1" Grid.Column="3" HorizontalAlignment="Left" Margin="18,22,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center"/>
+        <TextBox x:Name="textBox_Copy2" Grid.Column="3" HorizontalAlignment="Left" Margin="18,22,0,0" Grid.Row="3" TextWrapping="Wrap" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_Copy3" Grid.Column="2" HorizontalAlignment="Left" Margin="17,22,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center"/>
+        <TextBox x:Name="textBox_Copy4" Grid.Column="1" HorizontalAlignment="Left" Margin="17,22,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center"/>
+        <TextBox x:Name="textBox_Copy5" Grid.Column="3" HorizontalAlignment="Left" Margin="18,22,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center"/>
+        <TextBox x:Name="textBox_Copy6" Grid.Column="2" HorizontalAlignment="Left" Margin="17,22,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center"/>
+        <TextBox x:Name="textBox_Copy7" Grid.Column="1" HorizontalAlignment="Left" Margin="17,22,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center"/>
     </Grid>
 </Window>

@@ -44,5 +44,10 @@ namespace WpfApplication1
         {
 
         }
+
+        private void textBox1_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

@@ -55,20 +55,22 @@ namespace WpfApplication1
                 box4 == "2" && box5 == "6" && box6 == "4")
             {
                 //correct solution
-                System.Console.WriteLine("Hello Correct");
-                System.Console.ReadLine();
+                /*System.Console.WriteLine("Hello Correct");
+                System.Console.ReadLine();*/
 
                 PrimKakuro.Window1 newWin = new PrimKakuro.Window1();
                 newWin.Show();
-                //this.Close();
+                this.Close();
             }
             else
             {
                 //wrong solution
-                System.Console.WriteLine("Hello Wrong");
-                System.Console.ReadLine();
+                /*System.Console.WriteLine("Hello Wrong");
+                System.Console.ReadLine();*/
 
-
+                PrimKakuro.Window2 newWin = new PrimKakuro.Window2();
+                newWin.Show();
+                this.Close();
             }
         }
 

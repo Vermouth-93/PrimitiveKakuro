@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="355.333" Width="593.934" Background="#FF010103">
-    <Grid x:Name="blocksGrid" HorizontalAlignment="Left" Height="305" VerticalAlignment="Top" Width="567" Margin="10,11,0,0" OpacityMask="Black" RenderTransformOrigin="-0.094,0.476" Background="#FFFFBE00">
+        Title="MainWindow" Height="368.933" Width="607.534" Background="#FF010103">
+    <Grid x:Name="blocksGrid" HorizontalAlignment="Left" Height="305" VerticalAlignment="Top" Width="567" Margin="13,14,0,0" OpacityMask="Black" RenderTransformOrigin="-0.094,0.476" Background="#FFFFBE00">
         <Grid.RowDefinitions>
             <RowDefinition Height="48"/>
             <RowDefinition Height="90"/>

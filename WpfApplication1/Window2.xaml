@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PrimKakuro"
         mc:Ignorable="d"
-        Title="Window2" Height="300" Width="300">
+        Title="Window2" Height="283.2" Width="412">
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -13,9 +13,9 @@
                 <GradientStop Color="#FFFFBE00" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Label x:Name="label" Content="Oops ! You have entered &#xD;&#xA;one or more incorrect entries.&#xD;&#xA;Better luck next time.&#xD;&#xA;&#xD;&#xA;What would you like to do ?&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Height="132" Width="272" Foreground="#FFE3E33A" FontFamily="Segoe UI Semibold" FontWeight="Bold" FontSize="18.667"/>
-        <Button x:Name="button" Content="Try Again" HorizontalAlignment="Left" Margin="35,200,0,0" VerticalAlignment="Top" Width="90" Click="button_Click" Background="#FF000007" FontWeight="Bold" FontSize="16" Height="35" Foreground="#FFFFBE00"/>
-        <Button x:Name="button1" Content="Exit Game" HorizontalAlignment="Left" Margin="160,200,0,0" VerticalAlignment="Top" Width="90" Background="#FF000007" FontWeight="Bold" FontSize="16" Height="35" Foreground="#FFFFBE00" Click="button1_Click"/>
+        <Label x:Name="label" Content="Oops !&#xD;&#xA;&#xD;&#xA;You have entered one or more incorrect &#xD;&#xA;entries. Better luck next time.&#xD;&#xA;&#xD;&#xA;What would you like to do ?&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Height="142" Width="384" Foreground="#FFE3E33A" FontFamily="Arial Rounded MT Bold" FontWeight="Bold" FontSize="18.667"/>
+        <Button x:Name="button" Content="Try Again" HorizontalAlignment="Left" Margin="60,200,0,0" VerticalAlignment="Top" Width="90" Click="button_Click" Background="#FF000007" FontWeight="Bold" FontSize="16" Height="35" Foreground="#FFFFBE00" FontFamily="Kristen ITC"/>
+        <Button x:Name="button1" Content="Exit Game" HorizontalAlignment="Left" Margin="245,200,0,0" VerticalAlignment="Top" Width="90" Background="#FF000007" FontWeight="Bold" FontSize="16" Height="35" Foreground="#FFFFBE00" Click="button1_Click" FontFamily="Kristen ITC"/>
 
     </Grid>
 </Window>

@@ -26,7 +26,9 @@ namespace PrimKakuro
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-
+            WpfApplication1.MainWindow newWin = new WpfApplication1.MainWindow();
+            newWin.Show();
+            this.Close();
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)

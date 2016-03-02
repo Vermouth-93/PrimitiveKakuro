@@ -15,18 +15,18 @@ using System.Windows.Shapes;
 namespace PrimKakuro
 {
     /// <summary>
-    /// Interaction logic for Window2.xaml
+    /// Interaction logic for Level1.xaml
     /// </summary>
-    public partial class LosingWindow : Window
+    public partial class Level1 : Window
     {
-        public LosingWindow()
+        public Level1()
         {
             InitializeComponent();
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            IntroOpenWin newWin = new IntroOpenWin();
+            WpfApplication1.MainWindow newWin = new WpfApplication1.MainWindow();
             newWin.Show();
             this.Close();
         }

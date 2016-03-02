@@ -15,23 +15,23 @@ using System.Windows.Shapes;
 namespace PrimKakuro
 {
     /// <summary>
-    /// Interaction logic for Window2.xaml
+    /// Interaction logic for IntroOpenWin.xaml
     /// </summary>
-    public partial class LosingWindow : Window
+    public partial class IntroOpenWin : Window
     {
-        public LosingWindow()
+        public IntroOpenWin()
         {
             InitializeComponent();
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            IntroOpenWin newWin = new IntroOpenWin();
+            WpfApplication1.Level1 newWin = new WpfApplication1.Level1();
             newWin.Show();
             this.Close();
         }
 
-        private void button1_Click(object sender, RoutedEventArgs e)
+        private void button3_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }

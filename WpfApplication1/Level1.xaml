@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="600" Background="#FF010103">
+    <Grid x:Name="blocksGrid" HorizontalAlignment="Left" Height="340" VerticalAlignment="Top" Width="570" Margin="11,15,0,0" OpacityMask="Black" RenderTransformOrigin="-0.094,0.476" Background="#FFFFBE00">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="90"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="63"/>
+            <ColumnDefinition Width="95"/>
+            <ColumnDefinition Width="95"/>
+            <ColumnDefinition Width="95"/>
+            <ColumnDefinition Width="217"/>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="label_Copy2" Content="16" HorizontalAlignment="Left" Margin="10,13,0,0" VerticalAlignment="Top" Grid.Row="1" Height="61" Width="53" FontSize="32" FontWeight="Bold"/>
+        <Label x:Name="label_Copy3" Content="12" HorizontalAlignment="Left" Margin="10,14,0,0" VerticalAlignment="Top" Grid.Row="2" Height="61" Width="53" FontSize="32" FontWeight="Bold"/>
+        <Label x:Name="label_Copy4" Content="17" HorizontalAlignment="Left" Margin="10,14,0,0" VerticalAlignment="Top" Grid.Row="3" Height="61" Width="53" FontSize="32" FontWeight="Bold"/>
+        <Label x:Name="label_Copy" Content="16" HorizontalAlignment="Left" Margin="23,5,0,0" VerticalAlignment="Top" Height="49" Width="53" FontSize="32" Grid.Column="1" FontWeight="Bold" Grid.RowSpan="2"/>
+        <Label x:Name="label_Copy1" Content="9" HorizontalAlignment="Left" Margin="29,5,0,0" VerticalAlignment="Top" Height="49" Width="38" FontSize="32" Grid.Column="2" FontWeight="Bold" Grid.RowSpan="2"/>
+        <Label x:Name="label_Copy5" Content="21" HorizontalAlignment="Left" Margin="22,5,0,0" VerticalAlignment="Top" Height="49" Width="53" FontSize="32" Grid.Column="3" FontWeight="Bold" Grid.RowSpan="2"/>
+        <TextBox x:Name="text1" Grid.Column="1" HorizontalAlignment="Left" Margin="17,22,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center" FontSize="21.333" Background="#FFE3E33A"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="138" Margin="10,18,0,0" TextWrapping="Wrap" Text="Welcome to Kakuro Game for Beginners" VerticalAlignment="Top" Width="197" TextChanged="textBox1_TextChanged_1" Grid.Column="4" FontWeight="Bold" FontSize="26.667" Grid.RowSpan="3" Background="Black" TextAlignment="Center" Foreground="#FFE3E33A" BorderBrush="#FFFF6200" FontFamily="Showcard Gothic"/>
+        <Button x:Name="submitBtn" Content="Submit" Grid.Column="4" HorizontalAlignment="Left" Margin="50,40,0,0" Grid.Row="2" VerticalAlignment="Top" Width="104" Height="40" Foreground="Black" Background="#FFE3E33A" FontWeight="Bold" FontSize="18.667" FontFamily="Kristen ITC" BorderBrush="Black" Click="button_Click_2"/>
+        <Button x:Name="exitBtn" Content="Exit Game" Grid.Column="4" HorizontalAlignment="Left" Margin="50,19,0,0" Grid.Row="3" VerticalAlignment="Top" Width="104" Height="39" FontSize="18.667" FontWeight="Bold" Background="#FFE3E33A" FontFamily="Kristen ITC" BorderBrush="Black" Click="button1_Click"/>
+        <TextBox x:Name="text2" Grid.Column="2" HorizontalAlignment="Left" Margin="17,22,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center" FontSize="21.333" Background="#FFE3E33A"/>
+        <TextBox x:Name="text3" Grid.Column="3" HorizontalAlignment="Left" Margin="18,22,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center" FontSize="21.333" Background="#FFE3E33A"/>
+        <TextBox x:Name="text9" Grid.Column="3" HorizontalAlignment="Left" Margin="18,22,0,0" Grid.Row="3" TextWrapping="Wrap" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center" VerticalAlignment="Top" FontSize="21.333" Background="#FFE3E33A"/>
+        <TextBox x:Name="text8" Grid.Column="2" HorizontalAlignment="Left" Margin="17,22,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center" FontSize="21.333" Background="#FFE3E33A"/>
+        <TextBox x:Name="text7" Grid.Column="1" HorizontalAlignment="Left" Margin="17,22,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center" FontSize="21.333" Background="#FFE3E33A"/>
+        <TextBox x:Name="text6" Grid.Column="3" HorizontalAlignment="Left" Margin="18,22,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center" FontSize="21.333" Background="#FFE3E33A"/>
+        <TextBox x:Name="text5" Grid.Column="2" HorizontalAlignment="Left" Margin="17,22,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center" FontSize="21.333" Background="#FFE3E33A"/>
+        <TextBox x:Name="text4" Grid.Column="1" HorizontalAlignment="Left" Margin="17,22,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" TextChanged="textBox_TextChanged" Width="61" Height="38" TextAlignment="Center" FontSize="21.333" Background="#FFE3E33A"/>
+    </Grid>
+</Window>

@@ -17,9 +17,9 @@ namespace PrimKakuro
     /// <summary>
     /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class WinningWindow : Window
     {
-        public Window1()
+        public WinningWindow()
         {
             InitializeComponent();
         }
@@ -31,7 +31,7 @@ namespace PrimKakuro
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            WpfApplication1.MainWindow newWin = new WpfApplication1.MainWindow();
+            IntroOpenWin newWin = new IntroOpenWin();
             newWin.Show();
             this.Close();
         }

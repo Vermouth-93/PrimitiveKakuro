@@ -15,10 +15,10 @@
         </Grid.Background>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="45,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="160" Width="500" Foreground="#FFABE3D0" Text="Welcome to our mini Kakuro Game for Beginners" FontSize="42.667" TextAlignment="Center" FontWeight="Bold" FontFamily="Showcard Gothic" Background="Black"/>
         <Button x:Name="button" Content="Level 1" HorizontalAlignment="Left" Margin="60,234,0,0" VerticalAlignment="Top" Width="120" Height="40" FontWeight="Bold" FontSize="24" FontFamily="Showcard Gothic" Background="Black" Foreground="#FF2DBA83" Click="button_Click"/>
-        <Button x:Name="button1" Content="Level 2" HorizontalAlignment="Left" Margin="239,234,0,0" VerticalAlignment="Top" Width="120" Height="40" FontWeight="Bold" FontSize="24" FontFamily="Showcard Gothic" Background="Black" Foreground="#FF2DBA83"/>
+        <Button x:Name="button1" Content="Level 2" HorizontalAlignment="Left" Margin="239,234,0,0" VerticalAlignment="Top" Width="120" Height="40" FontWeight="Bold" FontSize="24" FontFamily="Showcard Gothic" Background="Black" Foreground="#FF2DBA83" Click="button1_Click"/>
         <Button x:Name="button2" Content="Level 3" HorizontalAlignment="Left" Margin="410,234,0,0" VerticalAlignment="Top" Width="120" Height="40" FontWeight="Bold" FontSize="24" FontFamily="Showcard Gothic" Background="Black" Foreground="#FF2DBA83"/>
         <Button x:Name="button3" Content="Exit" HorizontalAlignment="Left" Margin="334,299,0,0" VerticalAlignment="Top" Width="100" Height="40" FontWeight="Bold" FontSize="24" FontFamily="Showcard Gothic" Background="Black" Foreground="#FF2DBA83" Click="button3_Click"/>
-        <Button x:Name="button4" Content="Help" HorizontalAlignment="Left" Margin="159,299,0,0" VerticalAlignment="Top" Width="100" Height="40" FontWeight="Bold" FontSize="24" FontFamily="Showcard Gothic" Background="Black" Foreground="#FF2DBA83"/>
+        <Button x:Name="button4" Content="How to play" HorizontalAlignment="Left" Margin="106,299,0,0" VerticalAlignment="Top" Width="199" Height="40" FontWeight="Bold" FontSize="24" FontFamily="Showcard Gothic" Background="Black" Foreground="#FF2DBA83" Click="button4_Click"/>
 
     </Grid>
 </Window>
